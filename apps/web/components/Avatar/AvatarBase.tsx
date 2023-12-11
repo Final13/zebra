@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 import Image from 'next/image';
-import clsx from 'clsx';
 
 import type { CSSProperties, PropsWithChildren, FC } from 'react';
 
@@ -78,7 +77,9 @@ export const AvatarBase: FC<PropsWithChildren<AvatarProps>> = (props) => {
           style={getInnerStyle() as CSSProperties}
         />
       ) : (
-        <div style={{ color: 'black', fontSize: 30, ...(getInnerStyle() as CSSProperties) }}>{acronym}</div>
+        <div style={{ color: 'black', fontSize: 30, ...(getInnerStyle() as CSSProperties) }}>
+          {acronym}
+        </div>
       )}
     </div>
   );
