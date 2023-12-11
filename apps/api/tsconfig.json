@@ -1,9 +1,13 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "@lskjs/tsconfig/nostrict/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"],
-    }
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "declaration": true,
+    "ignoreDeprecations": "5.0",
+    "module": "NodeNext",
+    // "moduleResolution": "bundler"
+    "moduleResolution": "NodeNext"
   }
 }
+

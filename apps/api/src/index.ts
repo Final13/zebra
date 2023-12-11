@@ -1,4 +1,4 @@
-import './main.js';
+import './main';
 
 process.on('uncaughtException', (err) => {
   // eslint-disable-next-line no-console
