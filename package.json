@@ -75,10 +75,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Final13/avatar-kit.git"
+    "url": "git+https://github.com/Final13/zebra.git"
   },
   "bugs": {
-    "url": "https://github.com/Final13/avatar-kit/issues"
+    "url": "https://github.com/Final13/zebra/issues"
   },
-  "homepage": "https://github.com/Final13/avatar-kit#readme"
+  "homepage": "https://github.com/Final13/zebra#readme"
 }
