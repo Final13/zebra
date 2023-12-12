@@ -1,6 +1,5 @@
 import Head from 'next/head';
-
-import { Zebra } from '@/components/Zebra/Zebra';
+import { Zebra } from 'zebra-block';
 
 import styles from '@/styles/Home.module.css';
 
@@ -14,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div style={{ backgroundColor: 'white' }}>
+        <div style={{ backgroundColor: 'white', color: '#333' }}>
+          <b>Custom colors:</b>
           <Zebra colors={['#fddddd', '#fcf1f1']}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum enim optio dolorum
             amet deleniti repudiandae aspernatur natus dolor unde inventore! Dicta vel beatae et
@@ -25,6 +25,45 @@ export default function Home() {
             enim optio dolorum amet deleniti repudiandae aspernatur natus dolor unde inventore!
             Dicta vel beatae et atque sit possimus repellat laboriosam provident.
           </Zebra>
+          <b>Json:</b>
+          <Zebra
+            json={{
+              employees: [
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+              ],
+            }}
+          />
+          <b>Json without pretty:</b>
+          <Zebra
+            pretty={false}
+            json={{
+              employees: [
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
+                { name: 'Bob', email: 'bob32@gmail.com' },
+                { name: 'Jai', email: 'jai87@gmail.com' },
+              ],
+            }}
+          />
         </div>
       </main>
     </>

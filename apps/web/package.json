@@ -16,9 +16,11 @@
     "eslint-config-next": "14.0.1",
     "next": "14.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "zebra-block": "^1.0.6"
   },
   "devDependencies": {
+    "@types/node": "20.10.4",
     "@types/react": "18.2.36",
     "typescript": "~5.2.2"
   },
