@@ -1,8 +1,8 @@
 {
-  "name": "zebra-block",
+  "name": "kit3-root",
   "version": "1.0.0",
-  "description": "Zebra element for display information",
-  "author": "i.matskevich",
+  "description": "",
+  "author": "isuvorov",
   "scripts": {
     "dev": "            concurrently -k npm:dev:*",
     "build": "          lsk run build",
@@ -48,37 +48,7 @@
   },
   "main": "index.js",
   "///": "//////////========================/////////========================/////////========================/////////",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [],
-  "////": "/////////========================/////////========================/////////========================/////////",
-  "dependencies": {
-    "eslint": "^8.53.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-next": "^14.0.1",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-import-resolver-node": "^0.3.9",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-module-utils": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-scope": "^7.2.2",
-    "eslint-plugin-json-format": "^2.0.1",
-    "eslint-visitor-keys": "^3.4.3",
-    "prettier-linter-helpers": "^1.0.0",
-    "prettier": "^3.0.3",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-react-hooks": "^4.6.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Final13/zebra.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Final13/zebra/issues"
-  },
-  "homepage": "https://github.com/Final13/zebra#readme"
+  "////": "/////////========================/////////========================/////////========================/////////"
 }
