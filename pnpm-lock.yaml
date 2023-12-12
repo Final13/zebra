@@ -123,6 +123,9 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
+      zebra-block:
+        specifier: ^1.0.2
+        version: 1.0.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
     devDependencies:
       '@types/react':
         specifier: 18.2.36
@@ -8227,6 +8230,18 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     requiresBuild: true
+
+  /zebra-block@1.0.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-bOEGRB7IzgXTKtKJmrTzdf/cp7F0VGZjEvf+mt0u8Orc381J5qfN/Kw6qdpwv75kTYp+YcpO2KBU5Qz78Sx/Cg==}
+    peerDependencies:
+      react: '>=18.2.0'
+      react-dom: '>=18.2.0'
+      typescript: '>=3.7.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      typescript: 5.2.2
+    dev: false
 
   /zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
