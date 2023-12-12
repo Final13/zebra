@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import AvatarExamples from '@/components/AvatarExamples';
+import { Zebra } from '@/components/Zebra/Zebra';
 
 import styles from '@/styles/Home.module.css';
 
@@ -14,7 +14,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <AvatarExamples />
+        <div style={{ backgroundColor: 'white' }}>
+          <Zebra colors={['#fddddd', '#fcf1f1']}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum enim optio dolorum
+            amet deleniti repudiandae aspernatur natus dolor unde inventore! Dicta vel beatae et
+            atque sit possimus repellat laboriosam provident. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Nostrum enim optio dolorum amet deleniti repudiandae
+            aspernatur natus dolor unde inventore! Dicta vel beatae et atque sit possimus repellat
+            laboriosam provident. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+            enim optio dolorum amet deleniti repudiandae aspernatur natus dolor unde inventore!
+            Dicta vel beatae et atque sit possimus repellat laboriosam provident.
+          </Zebra>
+        </div>
       </main>
     </>
   );
