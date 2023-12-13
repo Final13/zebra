@@ -25,28 +25,19 @@ export default function Home() {
             enim optio dolorum amet deleniti repudiandae aspernatur natus dolor unde inventore!
             Dicta vel beatae et atque sit possimus repellat laboriosam provident.
           </Zebra>
+          <b>Custom Style (padding 20, font-size 20):</b>
+          <Zebra style={{ padding: 20, fontSize: 20 }}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum enim optio dolorum
+            amet deleniti repudiandae aspernatur natus dolor unde inventore! Dicta vel beatae et
+            atque sit possimus repellat laboriosam provident. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Nostrum enim optio dolorum amet deleniti repudiandae
+            aspernatur natus dolor unde inventore! Dicta vel beatae et atque sit possimus repellat
+            laboriosam provident. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+            enim optio dolorum amet deleniti repudiandae aspernatur natus dolor unde inventore!
+            Dicta vel beatae et atque sit possimus repellat laboriosam provident.
+          </Zebra>
           <b>Json:</b>
           <Zebra
-            json={{
-              employees: [
-                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
-                { name: 'Bob', email: 'bob32@gmail.com' },
-                { name: 'Jai', email: 'jai87@gmail.com' },
-                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
-                { name: 'Bob', email: 'bob32@gmail.com' },
-                { name: 'Jai', email: 'jai87@gmail.com' },
-                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
-                { name: 'Bob', email: 'bob32@gmail.com' },
-                { name: 'Jai', email: 'jai87@gmail.com' },
-                { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
-                { name: 'Bob', email: 'bob32@gmail.com' },
-                { name: 'Jai', email: 'jai87@gmail.com' },
-              ],
-            }}
-          />
-          <b>Json without pretty:</b>
-          <Zebra
-            pretty={false}
             json={{
               employees: [
                 { name: 'Shyam', email: 'shyamjaiswal@gmail.com' },
